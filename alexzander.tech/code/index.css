@@ -1,0 +1,166 @@
+
+
+
+
+
+
+/* this is the top navigation bar */
+.ul-navbar {
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 300px;
+
+    list-style-type: none;
+
+    overflow: hidden;
+    background-color: #333;
+    width: 30px;
+}
+
+/* .li-navbar-left {
+    float: left;
+}
+
+.li-navbar-right {
+    float: left;
+    margin-right: 100px;
+}
+*/
+
+
+.logo-navbar {
+
+}
+
+/* .logo-navbar:hover {
+    background-color: greenyellow;
+} */
+
+.a-navbar {
+    display: block;
+    color: darkkhaki;
+
+    /* this doest influence with anything */
+    text-align: left;
+
+    /* this is used to make space between buttons */
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+
+    width: 300px;
+
+
+    /* text-decoration is to make underline from href to disappear */
+    text-decoration: none;
+
+    font-size: 30px;
+    font-family: monaco;
+    font-weight: bold;
+}
+
+.a-navbar:hover {
+    background-color: greenyellow;
+    color: dimgray;
+    border-radius: 20px;
+}
+
+.a-navbar:active {
+    background-color: antiquewhite;
+    color: orangered;
+}
+/* end top naviation bar */
+
+
+
+
+#contact-div {
+    position: relative;
+    top: 400px;
+    background-color: antiquewhite;
+    font-size: 30px;
+    font-family: monaco;
+    font-weight: bold;
+}
+
+
+
+.contact-div {
+    display: grid;
+    width: 600px;
+    height: 370px;
+    background-color: #333;
+}
+
+.contact-header {
+    color: darkkhaki;
+    font-size: 35px;
+    font-family: monaco;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 5px;
+    /* text-decoration: underline; */
+}
+
+.facebook-contact,
+.instgram-contact,
+.discrod-contact,
+.email-contact {
+    display: inline;
+}
+
+.facebook-logo,
+.instagram-logo,
+.discord-logo,
+.email-logo {
+    float: left;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.facebook-url,
+.instagram-url,
+.discord-url,
+.email-url {
+    float: left;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monaco;
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 18.5px;
+}
+
+.instagram-url {
+    color: #ffdc80;
+}
+
+.discord-url {
+    color: #7289DA;
+}
+
+.email-url {
+    color: #EA4335;
+}
+
+.facebook-url:hover,
+.instagram-url:hover,
+.discord-url:hover,
+.email-url:hover {
+    color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

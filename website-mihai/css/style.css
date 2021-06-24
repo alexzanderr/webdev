@@ -1,0 +1,268 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image: url(../1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+header.hot-meta {
+	background-image: url(../hot-meta-background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+header.contact {
+	background-image: url(../sky.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style: none;
+	margin-top: 25px;
+
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color :#fff;
+	padding:5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6 ease;
+
+
+
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color:#000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color:#000;
+
+
+}
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #443c3c;
+	font-size:70px;
+	font-size: 60px;
+	background-color: rgb(224, 224, 49);
+
+}
+
+.hot-meta-body {
+	background-image: url(../hot-meta-background.jpg);
+}
+
+.hot-meta-div {
+	color: #443c3c;
+	font-size:15px;
+	top: 25%;
+	left:10%;
+	position: absolute;
+	background-color: rgb(224, 224, 49);
+}
+
+
+.button{
+	position: absolute;
+	top: 65%;
+	left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.btn{
+	border: 1px solid#fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	background-color: #fff;
+	color:#000;
+
+
+
+}
+
+.brn:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+
+
+.cards-div {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+}
+
+.text-div {
+	position: absolute;
+	top: 70%;
+	left: 10%;
+	background-color: antiquewhite;
+}
+
+.ul-contact {
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	font-size: 30px;
+	background-color: #443c3c;
+}
+
+.facebook-div {
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	font-size: 30px;
+	background-color: #443c3c;
+	color: rgb(76, 114, 238);
+}
+
+.instagram {
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	font-size: 30px;
+	background-color: #443c3c;
+	color: rgb(76, 114, 238);
+}
+
+.discord {
+	position: absolute;
+	top: 55%;
+	left: 39%;
+	font-size: 30px;
+	background-color: #443c3c;
+	color: rgb(76, 114, 238);
+}
+
+.go-home {
+	position: absolute;
+	top: 40%;
+	left: 39%;
+	font-size: 30px;
+	background-color: #443c3c;
+	color: rgb(76, 114, 238);
+}
+
+/* .logo {
+	background-image: url("../logo.png");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+} */
+
+.about {
+	background-image: url("../about.jpg")
+	;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.players {
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	font-size: 30px;
+	color: rgb(76, 114, 238);
+}
+
+#online_players {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	font-size: 30px;
+	color: rgb(76, 114, 238);
+	font-size: 100px;
+	background-color: antiquewhite;
+}
+
+.state {
+	background-image: url("../state.jpg")
+	;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.code {
+	font-size: 20px;
+	background-color: crimson;
+	color:#443c3c;
+	padding: 5px;
+	margin: 10px;
+
+}
+
+.state_text {
+	font-size: 30px;
+	color: whitesmoke;
+	background-color: #443c3c;
+	margin: 10px;
+	padding: 10px;
+}
+
+.code_text {
+	font-weight: bold;
+	font-size: 25px;
+	margin: 12px;
+	background-color: beige;
+	color: rgb(139, 139, 44);
+	text-align: center;
+}
+
+.deck-list {
+	font-weight: bold;
+	font-size: 30px;
+	margin: 5px;
+	background-color: beige;
+	color: rgb(139, 139, 44);
+	text-align: center;
+}
+
+.extra-info {
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	font-size: 50px;
+	background-color: bisque;
+	padding: 25px;
+	margin: 5px;
+}

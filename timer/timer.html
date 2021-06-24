@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Time Counter </title>
+    <link rel="shortcut icon" href="ico/timer.png">
+    <style>
+        body {
+            text-align: center;
+            background-color: brown;
+        }
+
+        .header-space {
+            background-color: black;
+            border: 5px solid darkblue;
+        }
+
+        .welcome {
+            color: darkblue;
+            background-color: greenyellow;
+            text-align: center;
+            font-size: 35px;
+            font-family: Consolas;
+            border: 5px solid red;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .container {
+            text-align: center;
+            background-color: cornsilk;
+            border: 5px solid red;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .digits {
+            color: darkblue;
+            text-align: center;
+            font-size: 30px;
+            font-family: Consolas;
+        }
+
+        .double-point {
+            color: orangered;
+            text-align: center;
+            font-size: 30px;
+            font-family: Consolas;
+        }
+
+        .information-text {
+            color: brown;
+            text-align: center;
+            font-size: 20px;
+            font-family: Consolas;
+        }
+
+        .text-representation {
+            color: darkorange;
+            text-align: center;
+            font-size: 20px;
+            font-family: Consolas;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header-space">
+        <span class="welcome">
+            <b> Welcome to Time Counter </b>
+        </span>
+    </div>
+
+    <div class="container">
+
+        <br>
+
+        <span class="information-text">
+            Time left until '13.07.2020 00:00:00' => admitere 2020
+        </span>
+
+        <br>
+
+        <span id="exam-timer-days" class="digits"></span>
+        <span class="double-point"> : </span>
+
+        <span id="exam-timer-hours" class="digits"></span>
+        <span class="double-point"> : </span>
+
+        <span id="exam-timer-minutes" class="digits"></span>
+        <span class="double-point"> : </span>
+
+        <span id="exam-timer-seconds" class="digits"></span>
+
+        <br>
+
+        <span class="text-representation">Days   </span>
+        <span class="text-representation">__</span>
+
+        <span class="text-representation">Hrs   </span>
+        <span class="text-representation">__</span>
+
+        <span class="text-representation">Mins   </span>
+        <span class="text-representation">__</span>
+
+        <span class="text-representation">Secs   </span>
+        <br>
+        <br>
+        <script src="exam_timer.js"></script>
+    </div>
+
+
+    <div class="container">
+        <br>
+
+        <span class="information-text">
+            Time left until '31.12.2100: death date' => 'approximately testing how it could be if'
+        </span>
+
+        <br>
+
+        <span id="death-timer-days" class="digits"></span>
+        <span class="double-point"> : </span>
+
+        <span id="death-timer-hours" class="digits"></span>
+        <span class="double-point"> : </span>
+
+        <span id="death-timer-minutes" class="digits"></span>
+        <span class="double-point"> : </span>
+
+        <span id="death-timer-seconds" class="digits"></span>
+
+        <br>
+
+        <span class="text-representation">Days   </span>
+        <span class="text-representation">__</span>
+
+        <span class="text-representation">Hrs   </span>
+        <span class="text-representation">__</span>
+
+        <span class="text-representation">Mins   </span>
+        <span class="text-representation">__</span>
+
+        <span class="text-representation">Secs   </span>
+        <script src="death_timer.js"></script>
+        <br>
+        <br>
+    </div>
+
+</body>
+</html>

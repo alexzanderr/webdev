@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Despre</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="about">
+        <a href="index.html">
+            <img src="logo.png">
+        </a>
+
+        <button class="players" onclick="load_html()">
+            Get Current Active Players
+        </button>
+        <div id="online_players">
+
+        </div>
+        <script>
+            function load_html () {
+                var div_players = document.getElementById("online_players")
+                div_players.innerHTML='<object type="text/html" data="online_players.html"></object>';
+
+                var online_players_total = parseInt(150000 + Math.random() * 90000)
+
+                div_players.textContent = online_players_total.toString() + "   online"
+            }
+
+
+        </script>
+
+        <a class="extra-info" href="https://tempostorm.com/hearthstone/meta-snapshot/wild/4-26-2021">
+            More Info About New Meta
+        </a>
+	</header>
+</body>
+</html>

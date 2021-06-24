@@ -1,0 +1,10 @@
+certificates
+*.code-workspace
+*.pdf
+*.png
+*.gif
+.idea
+ico
+*.jpg
+WebStormThemes
+GoogleMaps.html
